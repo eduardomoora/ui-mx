@@ -19,7 +19,17 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "eddie-lib": [
+        "dist/eddie-lib/eddie-lib",
+        "dist/eddie-lib"
+      ],
+      "ui-mx": [
+        "dist/ui-mx/ui-mx",
+        "dist/ui-mx"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
