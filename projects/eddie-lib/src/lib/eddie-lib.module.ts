@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CardComponent } from './components/card/card.component';
 import { EddieLibComponent } from './eddie-lib.component';
+import { PillComponent } from './components/pill/pill.component';
 
 
 
@@ -8,12 +9,14 @@ import { EddieLibComponent } from './eddie-lib.component';
   declarations: [
     EddieLibComponent,
     CardComponent,
+    PillComponent,
     
   ],
   imports: [ ],
   exports: [
     EddieLibComponent,
-    CardComponent
+    CardComponent,
+    PillComponent,
   ]
 })
 export class EddieLibModule { }

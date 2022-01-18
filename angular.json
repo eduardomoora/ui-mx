@@ -110,7 +110,7 @@
       "projectType": "library",
       "root": "projects/eddie-lib",
       "sourceRoot": "projects/eddie-lib/src",
-      "prefix": "lib",
+      "prefix": "ed",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",

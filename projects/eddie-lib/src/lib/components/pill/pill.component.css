@@ -1,0 +1,7 @@
+.pill-container{
+   background-color: black;
+   display: inline-block;
+   color: white;
+   padding: 5px 15px;
+   border-radius: 5px;
+}
